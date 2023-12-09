@@ -122,8 +122,7 @@ const Contact = () => {
 // App component
 const App = () => {
   return (
-    <div>
-      <Router>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -132,9 +131,6 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
-    <Home />
-    </div>
-    
   );
 };
 
