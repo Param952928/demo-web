@@ -2,7 +2,7 @@
   "name": "demo-web",
   "homepage": "https://Param952928.github.io/demo-web",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,7 +11,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1",
+    "react-router-dom": "^6.15.0"
   },
   "scripts": {
     "predeploy": "npm run build",
