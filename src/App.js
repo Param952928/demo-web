@@ -27,7 +27,6 @@ const App = () => {
     <Provider store={store}> {/* Wrap your app with Provider */}
       <Router>
         <Routes>
-
         <Route path="/" element={<StudentList students={students} />} /> {/* Use "element" prop */}
         <Route path="/registration-form" element={<RegistrationForm />} /> {/* Use "element" prop */} 
         <Route path="/student/:id" element={<StudentDetails />} /> {/* Dynamic route */}
