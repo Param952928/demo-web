@@ -122,15 +122,24 @@ const Contact = () => {
 // App component
 const App = () => {
   return (
-    <Router>
+    <div>
+       
+      <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        
         <Route path="/products" element={<Products />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
+    <h1>Welcome to Our Business</h1>
+      <p>
+        We are dedicated to providing high-quality products and excellent
+        services. Explore our website to learn more.
+      </p>
+    </div>
+    
   );
 };
 
