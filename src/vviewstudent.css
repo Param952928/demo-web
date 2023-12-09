@@ -1,0 +1,35 @@
+/* ViewStudents.css */
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-student-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-table th,
+  .student-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .student-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
