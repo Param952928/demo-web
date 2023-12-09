@@ -1,41 +1,137 @@
-
-
-
-// src/App.js
-
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Provider } from 'react-redux'; // Import Provider
-import { createStore } from 'redux';
-import studentReducer from './studentReducer'; // Import your reducer
-import StudentDetails from './StudentDetails'; // Import the new component
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 
+// Navbar component
+const Navbar = () => {
+  const navbarStyle = {
+    background: '#333',
+    padding: '10px',
+    color: '#fff',
+    marginBottom: '20px',
+  };
 
-import StudentList from './Viewstudent';
-import RegistrationForm from './Addnewstudent';
+  const ulStyle = {
+    listStyle: 'none',
+    display: 'flex',
+    justifyContent: 'space-around',
+    padding: '0',
+    margin: '0',
+  };
 
-const store = createStore(studentReducer); // Create Redux store with your reducer
+  const liStyle = {
+    marginRight: '10px',
+  };
 
-const App = () => {
-  const students = [
-    { name: 'Student 1' },
-    { name: 'Student 2' },
-    { name: 'Student 3' },
-    // Add more student data here
-  ];
+  const linkStyle = {
+    color: '#fff',
+    textDecoration: 'none',
+    fontSize: '18px',
+    fontWeight: 'bold',
+  };
+
   return (
-    <Provider store={store}> {/* Wrap your app with Provider */}
-      <Router>
-        <Routes>
-        <Route path="/" element={<StudentList students={students} />} /> {/* Use "element" prop */}
-        <Route path="/registration-form" element={<RegistrationForm />} /> {/* Use "element" prop */} 
-        <Route path="/student/:id" element={<StudentDetails />} /> {/* Dynamic route */}
+    <nav style={navbarStyle}>
+      <ul style={ulStyle}>
+        <li style={liStyle}>
+          <Link to="/" style={linkStyle}>
+            Home
+          </Link>
+        </li>
+        <li style={liStyle}>
+          <Link to="/products" style={linkStyle}>
+            Products
+          </Link>
+        </li>
+        <li style={liStyle}>
+          <Link to="/about" style={linkStyle}>
+            About Us
+          </Link>
+        </li>
+        <li style={liStyle}>
+          <Link to="/contact" style={linkStyle}>
+            Contact
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
-               </Routes>
-      </Router>
-    </Provider>
+// Home component
+const Home = () => {
+  return (
+    <div>
+      <h1>Welcome to Our Business</h1>
+      <p>
+        We are dedicated to providing high-quality products and excellent
+        services. Explore our website to learn more.
+      </p>
+    </div>
+  );
+};
+
+// Products component
+const Products = () => {
+  const products = [
+    { id: 1, name: 'Product A', description: 'Description for Product A' },
+    { id: 2, name: 'Product B', description: 'Description for Product B' },
+    { id: 3, name: 'Product C', description: 'Description for Product C' },
+  ];
+
+  return (
+    <div>
+      <h2>Our Products</h2>
+      <ul>
+        {products.map((product) => (
+          <li key={product.id}>
+            <h3>{product.name}</h3>
+            <p>{product.description}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+// About component
+const About = () => {
+  return (
+    <div>
+      <h2>About Us</h2>
+      <p>
+        We are a passionate team committed to delivering innovative solutions
+        to our customers. Learn more about our journey and values.
+      </p>
+    </div>
+  );
+};
+
+// Contact component
+const Contact = () => {
+  return (
+    <div>
+      <h2>Contact Us</h2>
+      <p>
+        Have questions or inquiries? Feel free to reach out to us through the
+        contact details provided below.
+      </p>
+    </div>
+  );
+};
+
+// App component
+const App = () => {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 };
 
 export default App;
-
