@@ -1,15 +1,33 @@
 {
   "files": {
-    "main.css": "/demo-web/static/css/main.e6c13ad2.css",
-    "main.js": "/demo-web/static/js/main.6a1049ff.js",
+    "main.css": "/demo-web/static/css/main.21bcfdb6.css",
+    "main.js": "/demo-web/static/js/main.3cfbd6a5.js",
     "static/js/787.1bb60506.chunk.js": "/demo-web/static/js/787.1bb60506.chunk.js",
+    "static/media/Comapany logo.jpeg": "/demo-web/static/media/Comapany logo.1baaf3fddd95567adf34.jpeg",
+    "static/media/ignition_swithch_2.jpeg": "/demo-web/static/media/ignition_swithch_2.42b95f5cf243cd832311.jpeg",
+    "static/media/ignition_swithch_1.jpeg": "/demo-web/static/media/ignition_swithch_1.5684c6e8f1f227c7c37a.jpeg",
+    "static/media/ignition_swithch_3.jpeg": "/demo-web/static/media/ignition_swithch_3.9201063f66a2de411d32.jpeg",
+    "static/media/Lever_1.jpeg": "/demo-web/static/media/Lever_1.cce2c2e32289a27a8dbe.jpeg",
+    "static/media/petroltank2.jpeg": "/demo-web/static/media/petroltank2.79367f233930579ea3ee.jpeg",
+    "static/media/petroltank5.jpeg": "/demo-web/static/media/petroltank5.cda72ad2341f513d987a.jpeg",
+    "static/media/ignition_swithch_4.jpeg": "/demo-web/static/media/ignition_swithch_4.5bf0bb4f2a94b03fb43f.jpeg",
+    "static/media/petroltank4.jpeg": "/demo-web/static/media/petroltank4.ad6ce763d08870605e26.jpeg",
+    "static/media/yoke1.jpeg": "/demo-web/static/media/yoke1.0376a3aed28ea72240f8.jpeg",
+    "static/media/petroltank3.jpeg": "/demo-web/static/media/petroltank3.cf5afea4bba9b927a576.jpeg",
+    "static/media/yoke2.jpeg": "/demo-web/static/media/yoke2.5fa4cf90d9fecde60d31.jpeg",
+    "static/media/petroltank1.jpeg": "/demo-web/static/media/petroltank1.dc4a3c36144c0168a447.jpeg",
+    "static/media/ignition_swithch_5.jpeg": "/demo-web/static/media/ignition_swithch_5.8f9d00da6109d1801e50.jpeg",
+    "static/media/Lever_4.jpeg": "/demo-web/static/media/Lever_4.d2073330a402106eb413.jpeg",
+    "static/media/Lever_2.jpeg": "/demo-web/static/media/Lever_2.bb8cfe8da24c4f06f658.jpeg",
+    "static/media/Lever_5.jpeg": "/demo-web/static/media/Lever_5.728f47d58b9d822b6cd1.jpeg",
+    "static/media/Lever_3.jpeg": "/demo-web/static/media/Lever_3.74b03228faecac5de2ed.jpeg",
     "index.html": "/demo-web/index.html",
-    "main.e6c13ad2.css.map": "/demo-web/static/css/main.e6c13ad2.css.map",
-    "main.6a1049ff.js.map": "/demo-web/static/js/main.6a1049ff.js.map",
+    "main.21bcfdb6.css.map": "/demo-web/static/css/main.21bcfdb6.css.map",
+    "main.3cfbd6a5.js.map": "/demo-web/static/js/main.3cfbd6a5.js.map",
     "787.1bb60506.chunk.js.map": "/demo-web/static/js/787.1bb60506.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.6a1049ff.js"
+    "static/css/main.21bcfdb6.css",
+    "static/js/main.3cfbd6a5.js"
   ]
 }
