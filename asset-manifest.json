@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/demo-web/static/css/main.21bcfdb6.css",
-    "main.js": "/demo-web/static/js/main.3cfbd6a5.js",
+    "main.js": "/demo-web/static/js/main.0d9e8378.js",
     "static/js/787.1bb60506.chunk.js": "/demo-web/static/js/787.1bb60506.chunk.js",
-    "static/media/Comapany logo.jpeg": "/demo-web/static/media/Comapany logo.1baaf3fddd95567adf34.jpeg",
+    "static/media/Company_logo.jpeg": "/demo-web/static/media/Company_logo.1baaf3fddd95567adf34.jpeg",
     "static/media/ignition_swithch_2.jpeg": "/demo-web/static/media/ignition_swithch_2.42b95f5cf243cd832311.jpeg",
     "static/media/ignition_swithch_1.jpeg": "/demo-web/static/media/ignition_swithch_1.5684c6e8f1f227c7c37a.jpeg",
     "static/media/ignition_swithch_3.jpeg": "/demo-web/static/media/ignition_swithch_3.9201063f66a2de411d32.jpeg",
@@ -23,11 +23,11 @@
     "static/media/Lever_3.jpeg": "/demo-web/static/media/Lever_3.74b03228faecac5de2ed.jpeg",
     "index.html": "/demo-web/index.html",
     "main.21bcfdb6.css.map": "/demo-web/static/css/main.21bcfdb6.css.map",
-    "main.3cfbd6a5.js.map": "/demo-web/static/js/main.3cfbd6a5.js.map",
+    "main.0d9e8378.js.map": "/demo-web/static/js/main.0d9e8378.js.map",
     "787.1bb60506.chunk.js.map": "/demo-web/static/js/787.1bb60506.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21bcfdb6.css",
-    "static/js/main.3cfbd6a5.js"
+    "static/js/main.0d9e8378.js"
   ]
 }
